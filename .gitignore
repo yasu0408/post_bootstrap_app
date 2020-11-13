@@ -37,6 +37,3 @@ yarn-debug.log*
 
 .DS_Store
 /vendor/bundle
-
-# RubyMineを使用されている方は次も追加
-/.idea
