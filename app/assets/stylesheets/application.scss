@@ -21,8 +21,9 @@
  
 div.field_with_errors {
   display: contents;
-  input {
-    border: 2px solid red;
+  input,
+  textarea {
+    @extend .is-invalid;
   }
 }
 
@@ -43,4 +44,12 @@ td {
 
 .break-word {
   word-break: break-word;
+}
+
+.alert-notice {
+  @extend .alert-success;
+}
+
+.alert-alert {
+  @extend .alert-danger;
 }
